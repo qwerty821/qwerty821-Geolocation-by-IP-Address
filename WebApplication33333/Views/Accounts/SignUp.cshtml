@@ -1,0 +1,29 @@
+﻿@model User
+
+<div class="position-relative">
+    <div class="position-absolute top-0 start-50 translate-middle signupform">
+        <form method="post" asp-controller="accounts" asp-action="signup">
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input asp-for="Email" type="text" id="email" class="form-control">
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="user" class="form-label">Username</label>
+                <input asp-for="Username" type="text" class="form-control">
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="pass" class="form-label">Password</label>
+                <input asp-for="Password" class="form-control" >
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+
+</div>

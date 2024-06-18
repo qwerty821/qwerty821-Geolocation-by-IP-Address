@@ -1,0 +1,70 @@
+[
+    {
+        "username": "test",
+        "password": "test"
+    },
+    {
+        "username": "nume",
+        "password": "123"
+    },
+    {
+        "username": "admin",
+        "password": "admin",
+        "isAdmin" :"true"
+    },
+    {
+        "username": "user1",
+        "password": "pass1"
+    },
+    {
+        "username": "nume1",
+        "password": "1232"
+    },
+    {
+        "username": "nume",
+        "password": ""
+    },
+    {
+        "username": "qwerty",
+        "password": "123456"
+    },
+    {
+        "username": "qwerty123",
+        "password": "123456",
+        "nume": "nume",
+        "prenume": "prenume",
+        "email": "a@mail.com",
+        "tel": "1234567890",
+        "sex": "m"
+    },
+    {
+        "username": "nume11111",
+        "password": "123",
+        "nume": "nume",
+        "prenume": "prenume",
+        "email": "qqqq",
+        "tel": "1111",
+        "sex": "m"
+    },
+    {
+        "username": "abc",
+        "password": "abc",
+        "nume": "nume",
+        "prenume": "prenume",
+        "email": "qqq",
+        "tel": "111",
+        "sex": "m",
+        "isAdmin": "false"
+        
+    },
+    {
+        "username": "valeriu",
+        "password": "1",
+        "isAdmin": "false"
+    },
+    {
+        "username": "valeriu",
+        "password": "2",
+        "isAdmin": "true"
+    }
+]

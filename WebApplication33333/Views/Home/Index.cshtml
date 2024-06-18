@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model ClientInfo;
+
+
+<div id="nameBox" style="display:none" >
+    <div id="enterName" class="position-absolute top-50 start-50 translate-middle">
+        Nume:<br><input id ="name-box" type="text" class="form-control" name="Nume"/>
+        <button id = "button-enter" type="button" class="btn btn-secondary" >Intra</button>
+    </div>
+</div>
+
+<div id="mapPanel">
+      <h1>Locatia dupa ip( @Model.Ip )</h1>  
+    <div id="map"></div>
+     <script>
+
+         if (navigator.userAgent.indexOf("Safari") != -1) {
+
+         } else {
+             document.getElementById("nameBox").style.display = "block";
+         }
+
+        var lat = @Model.Latitude;
+        var long = @Model.Longitude;
+        if (lat != null && long != null) { 
+        const map = L.map('map', {
+            center: [-29.50, 145],
+            zoom: 3.5
+            });
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '© OpenStreetMap'
+            }).addTo(map);
+
+            var marker = L.marker([@Model.Latitude, @Model.Longitude]).addTo(map)
+            .bindPopup('Locatia aproximativa')
+            .openPopup();
+
+            function zoomToMarker(marker) {
+            var latLng = marker.getLatLng();
+            map.setView(latLng, 15);
+            }
+        zoomToMarker(marker);
+        }
+           
+            document.getElementById("button-enter").addEventListener("click", EnterSite);
+
+    </script> 
+</div>
+    
+

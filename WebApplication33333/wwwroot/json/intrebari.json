@@ -1,0 +1,63 @@
+ [
+    {
+        "id": "0",
+        "intrebare": "Cine a pictat Cina cea de Taină ?",
+        "variante" : ["Mihailangelo", "Raphael", "Leonardo da Vinci", "Botticelli"],
+        "corect" : "2"
+    },
+    {
+        "id": "1",
+        "intrebare" : "Care dintre acești pictori nu este italian?" ,
+        "variante" : ["Pablo Picasso", "Leonardo da Vinci", "Titian", "Caravaggio"],
+        "corect" : "0"
+
+    },
+    {
+        "id": "2",
+        "intrebare": "Cine a pictat 'Nașterea lui Venus'?",
+        "variante": ["Sandro Botticelli", "Titian", "Raphael", "Giotto"],
+        "corect": "0"
+    },
+    {
+        "id": "3",
+        "intrebare": "Ce pictor este cunoscut pentru folosirea tehnicii punctilismului?",
+        "variante": ["Vincent van Gogh", "Georges Seurat", "Claude Monet", "Edgar Degas"],
+        "corect": "1"
+    },
+    {
+        "id": "4",
+        "intrebare": "Cine a pictat 'Noaptea înstelată'?",
+        "variante": ["Paul Cézanne", "Vincent van Gogh", "Henri Matisse", "Paul Gauguin"],
+        "corect": "1"
+    },
+    {
+        "id": "5",
+        "intrebare": "Cine a realizat frescele de pe tavanul Capelei Sixtine?",
+        "variante": ["Michelangelo", "Raphael", "Leonardo da Vinci", "Donatello"],
+        "corect": "0"
+    },
+    {
+        "id": "6",
+        "intrebare": "Ce pictor a creat seria de lucrări 'Nympheas' (Nuferii)?",
+        "variante": ["Claude Monet", "Édouard Manet", "Camille Pissarro", "Alfred Sisley"],
+        "corect": "0"
+    },
+    {
+        "id": "7",
+        "intrebare": "Cine a pictat 'La răstignire'?",
+        "variante": ["Giotto", "Masaccio", "Michelangelo", "El Greco"],
+        "corect": "3"
+    },
+    {
+        "id": "8",
+        "intrebare": "Care dintre acești pictori a fost un reprezentant al curentului cubist?",
+        "variante": ["Gustav Klimt", "Pablo Picasso", "Henri Rousseau", "John Singer Sargent"],
+        "corect": "1"
+    },
+    {
+        "id": "9",
+        "intrebare": "Cine a pictat 'Școala din Atena'?",
+        "variante": ["Leonardo da Vinci", "Raphael", "Sandro Botticelli", "Tintoretto"],
+        "corect": "1"
+    }
+ ]
