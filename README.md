@@ -1,1 +1,2 @@
-# qwerty821-Geolocation-by-IP-Address
+# An ASP.Net Core MVC project with Razor Pages
+website link: https://draganvaleriu.site/
